@@ -194,7 +194,7 @@ JOIN SanPham sp ON ctpn.MaSP = sp.MaSP
 JOIN LoaiSP lsp ON lsp.MaloaiSP = sp.MaloaiSP
 WHERE MONTH(pn.Ngaynhap) LIKE MONTH(now())
 ;
-
+sdsdsdmnasbmndbnasdbnsbdmnabdnsbmabs
 -- 5
 SELECT ncc.MaNCC, ncc.TenNCC, ncc.Diachi, ncc.Dienthoai, ncc.Email, pn.SoPN, pn.Ngaynhap FROM NhaCungCap ncc 
 JOIN PhieuNhap pn ON ncc.MaNCC = pn.MaNCC
